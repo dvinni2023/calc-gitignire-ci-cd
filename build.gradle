@@ -23,6 +23,9 @@ publishing {
     }
     publications {
 	maven(MavenPublication) {
+	    groupId 'ru.dvinni'
+	    artifactId 'github_cd'
+	    version '1.0'
 	    from components.java
 	}
     }
